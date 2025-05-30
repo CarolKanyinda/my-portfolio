@@ -1,0 +1,118 @@
+body { /*corp de la page home*/
+    background-color: #754c4c;
+}
+    
+.home-li { /*corp home individuellement */
+    background: linear-gradient(to right, #8a959ed7, #c2c99e); /*couleur de chaque cadre*/
+    color: white; /*couleur du text*/
+    text-decoration: none; /*deco du text*/
+    text-align: center;
+    margin-right: 50px; /*espace entre menu */
+    padding: 10px; 
+    border: 1px solid #ca8f8f; /*encadre chaque menu*/
+    border-radius: 5px; /*courbure de coin du cadre*/
+    box-shadow: 0 4px 6px rgb(0, 0, 0.2); /*taille du text */
+    font-weight: bold; /*style de text en gras*/
+    font-family: 'Times New Roman', Times, serif; /*style de police*/
+    font-size: 25px;
+    list-style-type: none;
+    transition: all 0.3s ease;
+
+}
+.cadre-projet {
+    border: 2px solid rgb(241, 229, 229)
+    
+}
+h1 { /*titre hello i'm carol*/
+      text-align: center;
+      color: aliceblue;
+}
+img { /*decoration du profil*/
+    margin: auto;
+    display: block;
+    border-radius: 100%;
+}
+p { /*deco paragraphe1*/
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+.paragraphe-2 { /*deco du bas home*/
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #ca8f8f;
+    background-color: #ca8f8fb2;
+}
+.menu { /*les menus en ensemble */
+    list-style-type: none; /*enlève les point du debut */
+    padding: 0; /*enlève les padding */
+    text-align: center;
+}
+.menu li { /*decoration individuelle de chaque menu */
+    background: linear-gradient(to right, #8a959ed7, #c2c99e); /*couleur de chaque cadre*/
+    color: white; /*couleur du text*/
+    text-decoration: none; /*deco du text*/
+    display: inline-block; /*affiche  les éléments sur la meme ligne */
+    margin-right: 50px; /*espace entre menu */
+    padding: 10px; 
+    border: 1px solid #ca8f8f; /*encadre chaque menu*/
+    border-radius: 5px; /*courbure de coin du cadre*/
+    box-shadow: 0 4px 6px rgb(0, 0, 0.2); /*taille du text */
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; /*style de police*/
+    transition: all 0.3s ease;
+
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgb(0, 0, 0.2);
+}
+.projet-p { /*tout les paragraphe du menu projet*/
+    font-size:20px;
+    text-align: center;
+
+}
+.projet-h1 { /*tout les titres h1 du menu projet*/
+    font-size: 25px;
+    text-align: center;
+}
+h3 { /*h3 des menus projet et contact*/
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.floating-img { /*animation du type float de l'image projet*/
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float { /*dit à l'image de flotter*/
+    0%  { transform: translateY(0px); }
+    50%  { transform: translateY(-10px); }
+    100%  { transform: translateY(0px); }
+}
+.propos-p {
+    font-size: 35px;
+}
+.propos-h {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #d1a939;
+}
+.contact-p {
+    font-size: 25px;
+    text-align: left;
+
+}
+.btl {
+    display: none;
+}
+@media screen and (max-width: 762px){
+    .btl {
+        display: flex;
+    }
+    
+}
+
